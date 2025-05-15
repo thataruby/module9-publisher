@@ -27,3 +27,14 @@ Those images shows that when the publisher is executed (cargo run), the subscrib
  
 ![Spikes](images/spikes.png)
 This image shows a chart with several spikes that align with the moments I ran the publisher using cargo run in the terminal. This indicates that the spikes were caused by the publisher's event publishing activity.
+
+## Bonus
+I ran the experiment on Azure, using the public ip 20.2.65.83 and an admin account for RabbitMQ that was set in the virtual machine.
+> Sending and Processing Event
+ 
+On publisher:
+![Sending Publisher 2](images/sending_publisher_2.png)
+ 
+On subscriber:
+![Sending Subscriber](images/sending_subscriber_2.png)
+The behaviour is still the same as before, when the publisher is executed (cargo run), the subscriber receives 5 events, as shown in the images.
