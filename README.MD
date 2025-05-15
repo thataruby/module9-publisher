@@ -23,3 +23,7 @@ On subscriber:
 
 Those images shows that when the publisher is executed (cargo run), the subscriber receives 5 events. Since I ran it twice, a total of 10 events appeared.
 
+> Monitoring chart based on publisher
+ 
+![Spikes](images/spikes.png)
+This image shows a chart with several spikes that align with the moments I ran the publisher using cargo run in the terminal. This indicates that the spikes were caused by the publisher's event publishing activity.
