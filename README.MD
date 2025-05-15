@@ -41,5 +41,5 @@ The behaviour is still the same as before, when the publisher is executed (cargo
 
 > Monitoring chart based on publisher
  
-![Spikes](images/spikes.png)
+![Spikes](images/spikes_2.png)
 The behaviour is still the same as before, the chart shows several spikes that align with the moments I ran the publisher in the terminal, which indicates that the spikes were caused by the publisher's event publishing activity.
