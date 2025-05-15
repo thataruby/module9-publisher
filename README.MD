@@ -38,3 +38,8 @@ On publisher:
 On subscriber:
 ![Sending Subscriber](images/sending_subscriber_2.png)
 The behaviour is still the same as before, when the publisher is executed (cargo run), the subscriber receives 5 events, as shown in the images.
+
+> Monitoring chart based on publisher
+ 
+![Spikes](images/spikes.png)
+The behaviour is still the same as before, the chart shows several spikes that align with the moments I ran the publisher in the terminal, which indicates that the spikes were caused by the publisher's event publishing activity.
