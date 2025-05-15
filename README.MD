@@ -12,3 +12,14 @@ The use of the URL amqp://guest:guest@localhost:5672 indicates that both the sub
 > Running RabbitMQ
  
 ![Running RabbitMQ](images/running_publisher.png)
+
+> Sending and Processing Event
+ 
+On publisher:
+![Sending Publisher](images/sending_publisher.png)
+ 
+On subscriber:
+![Sending Subscriber](images/sending_subscriber.png)
+
+Those images shows that when the publisher is executed (cargo run), the subscriber receives 5 events. Since I ran it twice, a total of 10 events appeared.
+
